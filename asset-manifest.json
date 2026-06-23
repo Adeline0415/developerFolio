@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.9a34b0ed.css",
+    "main.js": "/developerFolio/static/js/main.7218efbd.js",
+    "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.b9e1390f.chunk.js": "/developerFolio/static/js/769.b9e1390f.chunk.js",
+    "static/media/academic_award.jpg": "/developerFolio/static/media/academic_award.5c600f6207579e37fea6.jpg",
+    "static/media/cmuLogo.png": "/developerFolio/static/media/cmuLogo.7d1dfd8ba90fa9e125b4.png",
+    "static/media/nthuLogo.png": "/developerFolio/static/media/nthuLogo.453e7a4ea49fe90bcd22.png",
+    "static/media/me_TFG4.jpg": "/developerFolio/static/media/me_TFG4.a4fb1d2396f06c4a67b0.jpg",
+    "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/IOT.jpg": "/developerFolio/static/media/IOT.73dd0a3571df3974e6f1.jpg",
+    "static/media/AcademiaSinicaLogo.png": "/developerFolio/static/media/AcademiaSinicaLogo.ef6789ef3a7dbeb9240e.png",
+    "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Wallistic.png": "/developerFolio/static/media/Wallistic.6be4b77457ac8a64c138.png",
+    "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/programmer.svg": "/developerFolio/static/media/programmer.becd1465cc28d37ba166c0a5ec233467.svg",
+    "index.html": "/developerFolio/index.html",
+    "main.9a34b0ed.css.map": "/developerFolio/static/css/main.9a34b0ed.css.map",
+    "main.7218efbd.js.map": "/developerFolio/static/js/main.7218efbd.js.map",
+    "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.b9e1390f.chunk.js.map": "/developerFolio/static/js/769.b9e1390f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a34b0ed.css",
+    "static/js/main.7218efbd.js"
+  ]
+}
