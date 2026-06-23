@@ -39,9 +39,17 @@ export default function ExperienceCard({cardInfo, isDark}) {
         </div>
 
         <img
-          crossOrigin={"anonymous"}
+          crossOrigin="anonymous"
           ref={imgRef}
-          className={`experience-roundedimg${cardInfo.company === "Microsoft" ? " microsoft-logo-bg microsoft-square" : ""}${cardInfo.company === "National Tsing Hua University" ? " nthu-logo-bg" : ""}`}
+          className={`experience-roundedimg${
+            cardInfo.company === "Microsoft"
+              ? " microsoft-logo-bg microsoft-square"
+              : ""
+          }${
+            cardInfo.company === "National Tsing Hua University"
+              ? " nthu-logo-bg"
+              : ""
+          }`}
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}

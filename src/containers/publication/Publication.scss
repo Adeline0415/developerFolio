@@ -1,7 +1,8 @@
 @import "../../_globalColor";
 
-.publication-title{
-  text-align: left;
+.publication-title,
+.publication-subtitle {
+  text-align: center;
 }
 
 .publication-container {
@@ -11,10 +12,10 @@
 }
 
 .publication-card {
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  text-align: center; // Content inside the card should be left-aligned
+  text-align: left; // Content inside the card should be left-aligned
 }
 
 .publication-card-light {
@@ -43,7 +44,7 @@
 }
 
 .publication-detail > .card-title {
-  text-align: center;
+  text-align: left;
 }
 
 .publication-meta {
@@ -53,7 +54,7 @@
 }
 
 .publication-detail > .card-subtitle {
-  text-align: center;
+  text-align: left;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -69,13 +70,4 @@
 
 .publication-tag:hover {
   background: $buttonHover;
-}
-
-.publication-button-div {
-  display: flex;
-  justify-content: center;
-}
-
-.publication-button-div a {
-  text-decoration: none;
 }

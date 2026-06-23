@@ -47,12 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I build computer vision systems, full-stack AI applications, and robot learning.",
+  subTitle:
+    "I build computer vision systems, full-stack AI applications, and robot learning.",
   skills: [
     emoji(
       "⚡ Develop computer vision and deep learning pipelines for robotics and medical imaging."
     ),
-    emoji("⚡ Deploy full-stack applications using React, Laravel, Azure, and real-time AI services."),
+    emoji(
+      "⚡ Deploy full-stack applications using React, Laravel, Azure, and real-time AI services."
+    ),
     emoji(
       "⚡ Research embodied agents, reinforcement learning, and adaptive planning for robotic systems."
     )
@@ -142,7 +145,9 @@ const educationInfo = {
       logo: require("./assets/images/nthuLogo.png"),
       subHeader: "B.S. in Computer Science",
       duration: "Sep. 2021 - Jun. 2025",
-      descBullets: ["Selected courses: Machine Learning, Robotic Navigation, Algorithms, Operating Systems, and Computer Architecture."]
+      descBullets: [
+        "Selected courses: Machine Learning, Robotic Navigation, Algorithms, Operating Systems, and Computer Architecture."
+      ]
     }
   ]
 };
@@ -178,7 +183,7 @@ const workExperiences = {
       company: "Academia Sinica",
       companylogo: require("./assets/images/AcademiaSinicaLogo.png"),
       date: "Mar. 2026 – Jul. 2026",
-      desc: "Supervised by Dr. Tyng-Luh Liu \n Focusing on runtime failure detection for generative robotic policies.",
+      desc: "Supervised by Dr. Tyng-Luh Liu \nFocusing on runtime failure detection for generative robotic policies.",
       descBullets: [
         " Co-developed a success-only failure-detection layer for generative robot policies to safeguard closed-loop manipulation.",
         " Evaluated on the RoboMimic benchmark, achieving a 0.912 macro AUROC with a false positive rate under 6%."
@@ -201,7 +206,7 @@ const workExperiences = {
       company: "National Tsing Hua University",
       companylogo: require("./assets/images/nthuLogo.png"),
       date: "Jan. 2024 – Jul. 2025",
-      desc: "Supervised by Dr. Po-Chih Kuo \n Developed a Deep Learning Model to Differentiate Malignant from Benign Pleural Effusion",
+      desc: "Supervised by Dr. Po-Chih Kuo \nDeveloped a Deep Learning Model to Differentiate Malignant from Benign Pleural Effusion",
       descBullets: [
         "Engineered a ResNet-18 deep learning model to classify malignant pleural effusion from ultrasound images.",
         "Trained on 1706 internal data and fine-tuned on 60 external cases, achieving AUCs of 0.81 (internal) and 0.75 (external).",
@@ -223,12 +228,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Key research and development projects demonstrating computer vision, robotics, and AI systems.",
+  subtitle:
+    "Key research and development projects demonstrating computer vision, robotics, and AI systems.",
   projects: [
     {
       image: require("./assets/images/programmer.svg"),
       projectName: "Pikachu Seeker: Autonomous Robot Navigation",
-      projectDesc: "Integrated an autonomous robot in Unity using ROS 2 and YOLO for RGB-only target tracking.",
+      projectDesc:
+        "Integrated an autonomous robot in Unity using ROS 2 and YOLO for RGB-only target tracking.",
       footerLink: [
         {
           name: "View Repo",
@@ -239,7 +246,8 @@ const bigProjects = {
     {
       image: require("./assets/images/programmer.svg"),
       projectName: "Tetris Battle AI Agent",
-      projectDesc: "Implemented a Deep Q-Network with experience replay and adaptive rewards, achieving superhuman gameplay performance.",
+      projectDesc:
+        "Implemented a Deep Q-Network with experience replay and adaptive rewards, achieving superhuman gameplay performance.",
       footerLink: [
         {
           name: "View Repo",
@@ -250,7 +258,8 @@ const bigProjects = {
     {
       image: require("./assets/images/IOT.jpg"),
       projectName: "Smart Energy Saving IoT System",
-      projectDesc: "Built an ESP32-based environmental monitoring system with MQTT real-time transmission, winning 2nd Prize in the 2024 Mobile Communications Competition.",
+      projectDesc:
+        "Built an ESP32-based environmental monitoring system with MQTT real-time transmission, winning 2nd Prize in the 2024 Mobile Communications Competition.",
       footerLink: [
         {
           name: "View Repo",
@@ -261,7 +270,8 @@ const bigProjects = {
     {
       image: require("./assets/images/programmer.svg"),
       projectName: "BOYO Welfare Foundation Rental Platform",
-      projectDesc: "Developed a full-stack rental platform using Laravel and database integration for early intervention services.",
+      projectDesc:
+        "Developed a full-stack rental platform using Laravel and database integration for early intervention services.",
       footerLink: [
         {
           name: "View Repo",
@@ -272,7 +282,8 @@ const bigProjects = {
     {
       image: require("./assets/images/Wallistic.png"),
       projectName: "Wallistic: Mobile Wallpaper App",
-      projectDesc: "Designed and deployed a cross-platform React Native app to optimize wallpaper browsing and user efficiency.",
+      projectDesc:
+        "Designed and deployed a cross-platform React Native app to optimize wallpaper browsing and user efficiency.",
       footerLink: [
         {
           name: "View Repo",
