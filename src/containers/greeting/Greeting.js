@@ -23,8 +23,7 @@ export default function Greeting() {
               <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
-                {" "}
-                {greeting.title}{" "}
+                {greeting.title} <strong>{greeting.name}</strong>{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
@@ -42,25 +41,22 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
+                    href={greeting.resumeLink}
                     className="download-link-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="My resume" />
                   </a>
                 )}
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+            <img
+              alt="profile"
+              src={require("../../assets/images/me_TFG4.jpg")}
+            ></img>
           </div>
         </div>
       </div>

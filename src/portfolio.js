@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Adeline",
+  title: "Hi, I'm",
+  name: "Chia-Suan Yu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a computer vision and machine learning researcher developing robotic perception, autonomous navigation, and AI-powered enterprise systems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17RwpCh0qEGsetHBw-Qisv1rU2F7JZLeB/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Adeline0415",
+  linkedin: "https://www.linkedin.com/in/adeline0415/",
+  gmail: "adeline041503@gmail.com",
+  facebook: "https://www.facebook.com/yu.chia.suan.0415",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +47,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I build computer vision systems, full-stack AI applications, and robot learning.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop computer vision and deep learning pipelines for robotics and medical imaging."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Deploy full-stack applications using React, Laravel, Azure, and real-time AI services."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Research embodied agents, reinforcement learning, and adaptive planning for robotic systems."
     )
   ],
 
@@ -65,56 +63,60 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C/C++",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "ReactJS",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "NodeJS",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-brain"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-microchip"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "OpenCV",
+      fontAwesomeClassname: "fas fa-camera"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Azure",
+      fontAwesomeClassname: "fas fa-cloud"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +128,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Carnegie Mellon University",
+      logo: require("./assets/images/cmuLogo.png"),
+      subHeader: "M.S. in Computer Vision",
+      duration: "Aug. 2026 - Dec. 2027",
+      desc: "Robotics Institute, School of Computer Science",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Planned courses: Advanced Computer Vision, Deep Learning System, and Introduction to Robot Learning."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "National Tsing Hua University",
+      logo: require("./assets/images/nthuLogo.png"),
+      subHeader: "B.S. in Computer Science",
+      duration: "Sep. 2021 - Jun. 2025",
+      descBullets: ["Selected courses: Machine Learning, Robotic Navigation, Algorithms, Operating Systems, and Computer Architecture."]
     }
   ]
 };
@@ -153,16 +153,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Computer Vision / ML",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Full Stack Development",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Robotics & Systems",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +174,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Research Assistant",
+      company: "Academia Sinica",
+      companylogo: require("./assets/images/AcademiaSinicaLogo.png"),
+      date: "Mar. 2026 – Jul. 2026",
+      desc: "Supervised by Dr. Tyng-Luh Liu \n Focusing on runtime failure detection for generative robotic policies.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        " Co-developed a success-only failure-detection layer for generative robot policies to safeguard closed-loop manipulation.",
+        " Evaluated on the RoboMimic benchmark, achieving a 0.912 macro AUROC with a false positive rate under 6%."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Development Intern",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoftLogo.png"),
+      date: "Mar. 2025 – Sep. 2025",
+      desc: "Customer Success Unit",
+      descBullets: [
+        "Built genAI systems for enterprise use cases with the Semantic Kernel multi-agent framework and Azure AI Foundry.",
+        "Deployed customized AI agents to Azure via Azure Function App, enabling real-time access via Server-Sent Events(SSE).",
+        "Prototyped emerging NLWeb technologies for executive showcase at Microsoft DevDays Asia 2025."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research Assistant",
+      company: "National Tsing Hua University",
+      companylogo: require("./assets/images/nthuLogo.png"),
+      date: "Jan. 2024 – Jul. 2025",
+      desc: "Supervised by Dr. Po-Chih Kuo \n Developed a Deep Learning Model to Differentiate Malignant from Benign Pleural Effusion",
+      descBullets: [
+        "Engineered a ResNet-18 deep learning model to classify malignant pleural effusion from ultrasound images.",
+        "Trained on 1706 internal data and fine-tuned on 60 external cases, achieving AUCs of 0.81 (internal) and 0.75 (external).",
+        "Served as first author and presenter, won Outstanding Academic Paper Award at TSPCCM 2024."
+      ]
     }
   ]
 };
@@ -212,29 +222,100 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Key research and development projects demonstrating computer vision, robotics, and AI systems.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/programmer.svg"),
+      projectName: "Pikachu Seeker: Autonomous Robot Navigation",
+      projectDesc: "Integrated an autonomous robot in Unity using ROS 2 and YOLO for RGB-only target tracking.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Repo",
+          url: "https://github.com/Adeline0415/Pikachu_Seeker"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/programmer.svg"),
+      projectName: "Tetris Battle AI Agent",
+      projectDesc: "Implemented a Deep Q-Network with experience replay and adaptive rewards, achieving superhuman gameplay performance.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Repo",
+          url: "https://github.com/Adeline0415/TetrisBattle_with_Q-learning_model"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/IOT.jpg"),
+      projectName: "Smart Energy Saving IoT System",
+      projectDesc: "Built an ESP32-based environmental monitoring system with MQTT real-time transmission, winning 2nd Prize in the 2024 Mobile Communications Competition.",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/Adeline0415/Smart_Energy_Saving_and_IoT_Application"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/programmer.svg"),
+      projectName: "BOYO Welfare Foundation Rental Platform",
+      projectDesc: "Developed a full-stack rental platform using Laravel and database integration for early intervention services.",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/Adeline0415/BOYO-rental_platform"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Wallistic.png"),
+      projectName: "Wallistic: Mobile Wallpaper App",
+      projectDesc: "Designed and deployed a cross-platform React Native app to optimize wallpaper browsing and user efficiency.",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/Adeline0415/Wallistic_a_ReactNative_mobile_app"
+        }
+      ]
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Achievement Section
+// Include certificates, talks etc
+
+const achievementSection = {
+  title: emoji("Honors & Awards 🏆 "),
+  subtitle:
+    "Honors, awards, and publications from my research and development work.",
+
+  achievementsCards: [
+    {
+      title: "Outstanding Academic Paper Award (Oral Presentation)",
+      subtitle:
+        "Awarded by the Taiwan Society of Pulmonary and Critical Care Medicine (TSPCCM) 2024.",
+      image: require("./assets/images/academic_award.jpg"),
+      imageAlt: "Academic Award",
+      footerLink: [
+        {
+          name: "Award Detail",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "2nd Prize, Mobile Communications Practice Competition",
+      subtitle:
+        "Recognized for the Smart Energy Saving IoT System project in 2024.",
+      image: require("./assets/images/IOT.jpg"),
+      imageAlt: "Competition Award",
+      footerLink: [
+        {
+          name: "Competition Info",
+          url: ""
         }
       ]
     }
@@ -242,62 +323,27 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Achievement Section
-// Include certificates, talks etc
-
-const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
-  achievementsCards: [
+// Publications Section
+const publicationSection = {
+  title: "Publications",
+  publications: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+      title:
+        "A deep learning model based on ultrasound imaging to differentiate malignant from benign pleural effusion: a multicenter cohort study.",
+      description:
+        "Chang-Wei Wu, Chia-Suan Yu, Yen-Lin Chen, Po-Chih Kuo, Meng-Rui Lee, et al.",
+      meta: "Respiratory Research, 2026.",
+      link: "https://doi.org/10.1186/s12931-026-03574-w",
+      linkLabel: "paper"
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title:
+        "FlowGuard: Success-Only Runtime Monitoring for Receding-Horizon Generative Robot Policies.",
+      description:
+        "Pei-Chi Chen, Chia-Suan Yu, Tsung-Wei Ke, Hwann-Tzong Chen, Tyng-Luh Liu.",
+      meta: "Under Submission to NeurIPS 2026.",
+      link: "",
+      linkLabel: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,7 +370,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +389,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +402,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,19 +417,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My inbox is open for all.",
+  number: "(+886)980-218-448",
+  email_address: "adeline041503@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set false to hide this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -403,5 +449,6 @@ export {
   contactInfo,
   twitterDetails,
   isHireable,
-  resumeSection
+  resumeSection,
+  publicationSection
 };

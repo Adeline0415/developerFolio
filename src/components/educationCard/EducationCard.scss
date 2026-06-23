@@ -43,10 +43,15 @@
 .education-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 7rem;
+  height: 7rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+}
+
+.education-roundedimg.white-bg {
+  object-fit: contain;
+  background-color: white;
 }
 
 .education-card-right {
@@ -80,7 +85,7 @@
 
 /* Media Query */
 
-@media (max-width: 1380px) {
+@media (max-width: 1000px) {
   .education-card {
     flex-direction: column;
     padding-bottom: 10px;
@@ -103,14 +108,14 @@
     font-size: 16px;
   }
   .education-roundedimg {
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin-bottom: 0.5rem;
     margin-right: 0px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .education-card {
     text-align: center;
   }
@@ -122,8 +127,8 @@
   }
   .education-roundedimg {
     margin-top: 10px;
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     margin-bottom: 1rem;
     margin-right: 0;
   }

@@ -79,7 +79,7 @@
 
 .experience-roundedimg {
   position: absolute;
-  object-fit: cover;
+  object-fit: contain;
   left: 0;
   right: 0;
   top: 7rem;
@@ -89,6 +89,21 @@
   height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
+}
+
+.experience-roundedimg.microsoft-logo-bg {
+  background-color: rgba($darkBackground, 0.4);
+}
+
+.experience-roundedimg.nthu-logo-bg {
+  background-color: white;
+}
+
+.experience-roundedimg.microsoft-square {
+  border-radius: 0px;
+  // padding: 0.4rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .experience-text-role {

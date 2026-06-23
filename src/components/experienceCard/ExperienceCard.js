@@ -41,7 +41,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
-          className="experience-roundedimg"
+          className={`experience-roundedimg${cardInfo.company === "Microsoft" ? " microsoft-logo-bg microsoft-square" : ""}${cardInfo.company === "National Tsing Hua University" ? " nthu-logo-bg" : ""}`}
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
@@ -72,6 +72,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
               ? "subTitle experience-text-desc dark-mode-text"
               : "subTitle experience-text-desc"
           }
+          style={{whiteSpace: "pre-line"}}
         >
           {cardInfo.desc}
         </p>

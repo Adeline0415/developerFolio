@@ -28,7 +28,7 @@ export default function EducationCard({school}) {
               <img
                 crossOrigin={"anonymous"}
                 ref={imgRef}
-                className="education-roundedimg"
+                className={`education-roundedimg${school.schoolName === "Carnegie Mellon University" ? "" : " white-bg"}`}
                 src={school.logo}
                 alt={school.schoolName}
               />
@@ -54,7 +54,9 @@ export default function EducationCard({school}) {
               >
                 {school.duration}
               </p>
-              <p className="education-text-desc">{school.desc}</p>
+              {school.desc ? (
+                <p className="education-text-desc">{school.desc}</p>
+              ) : null}
               <div className="education-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />

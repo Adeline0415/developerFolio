@@ -26,8 +26,18 @@
 }
 
 .greeting-main > * {
-  flex: 1;
   margin-bottom: 30px;
+}
+
+.greeting-text-div {
+  flex: 0.6;
+}
+
+.greeting-image-div {
+  flex: 1.4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .empty-div {
@@ -46,6 +56,7 @@
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
+  white-space: nowrap;
 }
 
 .greeting-text-p {
@@ -54,10 +65,10 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
+  border-radius: 0.5rem;
 }
-
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;

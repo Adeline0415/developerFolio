@@ -1,0 +1,81 @@
+@import "../../_globalColor";
+
+.publication-title{
+  text-align: left;
+}
+
+.publication-container {
+  display: grid;
+  grid-template-columns: 1fr; // Each publication takes a full row
+  gap: 2rem;
+}
+
+.publication-card {
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid $lightBorder1;
+  text-align: center; // Content inside the card should be left-aligned
+}
+
+.publication-card-light {
+  background-color: $lightBackground2;
+  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.publication-card-light:hover {
+  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+}
+
+.dark-mode.publication-card-dark {
+  background-color: $darkBackground;
+  border: 1px solid $darkBoxShadow;
+  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.dark-mode.publication-card-dark:hover {
+  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+}
+
+.publication-detail > .card-title {
+  text-align: center;
+}
+
+.publication-meta {
+  color: $cardSubtitle;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.publication-detail > .card-subtitle {
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.publication-tag {
+  background: $buttonColor;
+  color: $lightBackground3;
+  border-radius: 4px;
+  padding: 0.5em 0.75em;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.publication-tag:hover {
+  background: $buttonHover;
+}
+
+.publication-button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.publication-button-div a {
+  text-decoration: none;
+}
