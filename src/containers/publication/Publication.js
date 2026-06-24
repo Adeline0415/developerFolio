@@ -44,7 +44,7 @@ export default function Publication() {
             {publicationSection.subtitle}
           </p>
 
-          <div className="publication-container" style={{textAlign: "center"}}> 
+          <div className="publication-container" style={{textAlign: "center"}}>
             {publicationSection.publications.map((publication, i) => (
               <div
                 key={i}
