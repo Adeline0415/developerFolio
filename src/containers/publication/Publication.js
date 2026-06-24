@@ -54,29 +54,36 @@ export default function Publication() {
                     : "publication-card publication-card-light"
                 }
               >
-                <div
-                  className="publication-detail"
-                  style={{textAlign: "center"}}
-                >
+                <div className="publication-detail">
+                  {/* 1. 論文標題置中 */}
                   <h5
                     className={isDark ? "dark-mode card-title" : "card-title"}
+                    style={{textAlign: "center"}}
                   >
                     {publication.title}
                   </h5>
+
+                  {/* 2. 期刊/會議名稱置中 */}
                   <p
                     className={
                       isDark ? "dark-mode publication-meta" : "publication-meta"
                     }
+                    style={{textAlign: "center"}}
                   >
                     {publication.meta}
                   </p>
+
+                  {/* 3. 作者名單置中 */}
                   <p
                     className={
                       isDark ? "dark-mode card-subtitle" : "card-subtitle"
                     }
+                    style={{textAlign: "center"}}
                   >
                     {renderAuthors(publication.description)}
                   </p>
+
+                  {/* 下面保留你原本已經改好的 Button 區塊 */}
                   {publication.link && publication.linkLabel ? (
                     <div
                       className="publication-button-div"
