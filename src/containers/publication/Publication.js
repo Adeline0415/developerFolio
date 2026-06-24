@@ -73,20 +73,25 @@ export default function Publication() {
                     {renderAuthors(publication.description)}
                   </p>
                   {publication.link && publication.linkLabel ? (
-                    <div 
-                        className="publication-button-div" 
-                        style={{ display: "flex", justifyContent: "center", width: "100%", marginTop: "15px" }}
+                    <div
+                      className="publication-button-div"
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        width: "100%",
+                        marginTop: "15px"
+                      }}
                     >
-                        <a
+                      <a
                         href={publication.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ textDecoration: "none" }}
-                        >
+                        style={{textDecoration: "none"}}
+                      >
                         <Button text={publication.linkLabel || "paper"} />
-                        </a>
+                      </a>
                     </div>
-                    ) : null}
+                  ) : null}
                 </div>
               </div>
             ))}
