@@ -31,7 +31,9 @@ export default function Publication() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="publications">
         <div>
-          <h1 className="publication-title">{publicationSection.title}</h1>
+          <h1 className="publication-title" style={{textAlign: "left"}}>
+            {publicationSection.title}
+          </h1>
           <p
             className={
               isDark
@@ -52,7 +54,10 @@ export default function Publication() {
                     : "publication-card publication-card-light"
                 }
               >
-                <div className="publication-detail">
+                <div
+                  className="publication-detail"
+                  style={{textAlign: "center"}}
+                >
                   <h5
                     className={isDark ? "dark-mode card-title" : "card-title"}
                   >
